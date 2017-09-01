@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script>
+        document.write("hello world")
+    </script>
+</head>
+<body>
+<p id="pid">
+    你好
+</p>
+
+<script>
+    document.getElementById("pid").innerHTML = "hello 小壳"
+</script>
+<script>
+    var a1 = 1;
+    var a2 = 20;
+    function sum() {
+        var c = 10;
+        i = 20  //全局变量，但是需要调用了sum这个函数才能用。
+    }
+//    alert(a2)
+    sum()
+    alert(i)
+</script>
+</body>
+</html>

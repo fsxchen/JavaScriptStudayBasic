@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>基础语法
+        document.getElementById().style=""
+    </p>
+
+    <div id="div" class="div">hello</div>
+    <button onclick="foo()">按钮</button>
+    <script>
+        function foo() {
+            document.getElementById("div").style.background = "blue"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="startTime()">
+    <p>处理日期和时间</p>
+    <script>
+        var date = new Date()
+        document.write(date)
+        document.write("<br>")
+        document.write(date.getFullYear())
+        document.write("<br>")
+        document.write(date.getTime())
+        document.write("<br>")
+        date.setFullYear(2001, 12, 2)
+
+        document.write("<br>")
+
+        function startTime() {
+            var today = new Date()
+            var h = today.getHours()
+            var m = today.getMinutes()
+            var s = today.getSeconds()
+            m = checkTime(m)
+            s = checkTime(s)
+            document.getElementById("timetxt").innerHTML = h + ":" + m + ":" + s
+            t = setTimeout(function () {
+                startTime()
+            }, 500)
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                return "0" + i
+            } else
+                return i
+        }
+    </script>
+    <div id="timetxt">
+
+    </div>
+</body>
+</html>

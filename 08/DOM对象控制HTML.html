@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        <ul>
+        <li>
+            获取元素
+        </li>
+        <li>
+            得到属性
+        </li>
+        <li>
+            设置属性
+        </li>
+        <li>
+            子节点的操作
+        </li>
+    </ul>
+    </p>
+
+    <ul>
+        <li> 第一行</li>
+        <li> 第二行</li>
+        <li> 第三行</li>
+    </ul>
+    <p name="np">
+
+    </p>
+    <p name="np">
+
+    </p>
+    <p name="np">
+
+    </p>
+    <p name="np">
+
+    </p>
+    <a id="aid" href="http://www.baiduc.om">超链接</a>
+    <a id="aid2" href="http://www.smtzs.com">aid2</a>
+
+    <div id="did">
+        <p id="pid">div的p元素</p>
+    </div>
+    <script>
+        function getName() {
+            var counts = document.getElementsByName("np")
+            var p1 = counts[0]
+            p1.innerHTML = "你好"
+        }
+        getName()
+        function getAttr() {
+            var anode = document.getElementById("aid")
+            var attr = anode.getAttribute("href")
+            alert(attr)
+        }
+        getAttr()
+        function setAttr() {
+            var a2node = document.getElementById("aid2")
+            a2node.setAttribute("title", "动态设置title")
+            alert(a2node.getAttribute("title"))
+        }
+        setAttr()
+        function getChildNode() {
+            var childnode = document.getElementsByTagName("ul")[0].childNodes
+            alert(childnode.length)
+            alert(childnode[0].nodeType)
+        }
+//        getChildNode()
+        function getParentNode() {
+            var div = document.getElementById("pid").parentNode
+            alert(div.nodeName)
+        }
+//        getParentNode()
+        function createNode() {
+            var body = document.body
+            var input = document.createElement("input")
+            input.type="button"
+            input.value = "按钮"
+            body.appendChild(input)
+        }
+//        createNode()
+        function addNode() {
+            var div = document.getElementById("did")
+            var pid = document.getElementById("pid")
+            var newnode = document.createElement("p")
+            newnode.innerHTML = "动态添加P元素"
+            div.insertBefore(newnode, pid)
+        }
+//        addNode()
+        function removeNode() {
+            var div = document.getElementById("did")
+            var p = div.removeChild(div.childNodes[1])
+        }
+//        removeNode()
+        function getSize() {
+            var width = document.documentElement.offsetWidth || document.body.offsetWidth;
+            var height = document.documentElement.offsetHeight || document.body.offsetHeight;
+            alert(width + ":" + height)
+        }
+        getSize()
+    </script>
+</body>
+</html>

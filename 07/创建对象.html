@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--创建对象-->
+    <script>
+//        people = new Object()
+//        people.name = "zhang";
+//        people.age = 18
+//        document.write("name: " + people.name)
+//        document.write("age: " + people.age)
+
+        people = {
+            name: "zhang",
+            age: 18
+        }
+        document.write("name: " + people.name)
+        document.write("age: " + people.age)
+        document.write("<br />")
+        document.write("<hr />")
+        // 使用函数来定义
+        function Student(name, age) {
+            this._name = name;
+            this._age = age;
+        }
+        stu = new Student("sun", 19)
+        document.write("name: " + stu._name)
+        document.write("age: " + stu._age)
+    </script>
+</body>
+</html>

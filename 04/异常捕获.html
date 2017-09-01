@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <input type="text" id="txt">
+    <input type="button" id="btn" onclick="demo()" value="按钮">
+</form>
+<script>
+    function foo() {
+        try {
+            alert(str)
+        } catch(err) {
+            alert(err)
+        }
+    }
+    
+    function demo() {
+        try {
+            var e = document.getElementById("txt").value;
+            if (e == "") {
+                throw "用户没有输入"
+            }
+        } catch (err) {
+            alert(err)
+        }
+    }
+
+</script>
+</body>
+</html>

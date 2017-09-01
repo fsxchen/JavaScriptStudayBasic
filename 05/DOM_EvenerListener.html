@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>给元素添加／一处事件句柄</p>
+    <p>句柄添加多个不会覆盖</p>
+    <p id="pid" onclick="demo()">hello</p>
+    <button id="btn">按钮</button>
+    <script>
+//        function demo() {
+//            document.getElementById("pid").innerHTML = "world"
+//        }
+        var e = document.getElementById("btn")
+        e.addEventListener("click", hello)
+            e.addEventListener("click", world)
+
+        function hello() {
+            alert("hello")
+        }
+        function world() {
+            alert("world")
+        }
+    </script>
+</body>
+</html>

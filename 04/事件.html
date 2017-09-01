@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div {
+            width:100px;
+            height: 100px;
+            background: #333333;
+        }
+    </style>
+</head>
+<body onload="msg()">
+<p>可以被js捕捉的事件</p>
+
+<ul>
+    <li>点击事件
+        <button onclick="demo('btn')">按钮</button>
+
+    </li>
+    <li>
+        <div class="div" onmouseover="demo('mouse over')" onmouseout="demo('mouse out')"></div>
+
+    </li>
+    <li>内容改变事件
+        <form action="">
+            <input type="text" onchange="txtChange(this)">
+        </form>
+    </li>
+    <li>
+        文本选中事件
+        <input type="text" onselect="changeBg(this)" onfocus="changeD(this)">
+    </li>
+    <li>
+        fcous
+
+    </li>
+</ul>
+
+
+
+
+
+<script>
+    function demo(str) {
+        alert("事件: " + str)
+    }
+    function txtChange(bg) {
+        alert("内容变了")
+    }
+    function changeBg(e) {
+        e.style.background = 'red';
+    }
+    function changeD(bg) {
+        bg.style.background = 'blue'
+    }
+    function msg() {
+        alert("网页内容加载完毕")
+    }
+</script>
+</body>
+</html>

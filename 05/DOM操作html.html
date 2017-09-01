@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div {
+            width:100px;
+            height: 100px;
+            background: #333333;
+        }
+    </style>
+</head>
+<body>
+
+<p id="pid">你好</p>
+<button onclick="changeHtml()">按钮</button>
+
+<p>改变html的属性 </p>
+<span> <a id="aid" href="http://www.baidu.com">hahahahah</a></span>
+<button onclick="changeHref()">变化</button>
+<script>
+    document.write("hello") //不要在文档加载完成之后，调用document.write(),会覆盖的。
+    function changeHtml() {
+        var nav = document.getElementById("pid")
+        nav.innerHTML = "改变html的属性"
+    }
+    function changeHref() {
+        var aid = document.getElementById("aid")
+        aid.href = "http://oschina.net"
+    }
+</script>
+</body>
+</html>

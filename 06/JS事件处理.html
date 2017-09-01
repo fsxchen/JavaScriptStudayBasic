@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>HTML事件处理</p>
+<!--<button id="btn" onclick="demo()">button</button>-->
+<button id="btn" >button</button>
+
+<p>DOM 0级事件处理</p>
+
+<hr />
+<p>DOM 2级事件处理</p>
+<script>
+    function demo() {
+        alert("Hello")
+    }
+    var btn1 = document.getElementById("btn")
+//    btn1.onclick = function () {
+//        alert("DOM 0级事件处理程序！1")
+//
+//    }
+//    btn1.onclick = function () {        //这个事件会覆盖前面的
+//        alert("DOM 0级事件处理程序！2")
+//
+//    }
+    btn1.addEventListener("click", demo1())
+</script>
+</body>
+</html>

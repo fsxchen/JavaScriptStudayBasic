@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        <ul>
+        <li>
+            合并数组concat()
+        </li>
+        <li>
+            数组排序sort()
+        </li>
+        <li>
+            数组追加push()
+        </li>
+        <li>数组翻转reverse()</li>
+    </ul>
+    </p>
+    <hr>
+    <script>
+        var a = ["hello", "数组"]
+        var b = ["hi", 8]
+        var c = a.concat(b)
+        document.write(c)
+        document.write("<br>")
+        document.write(c.sort())
+        document.write("<br>")
+        document.write(c.sort(function (a, b) {
+            return b -a;
+        }))
+        document.write("<br>")
+        document.write(c.reverse())
+
+    </script>
+</body>
+</html>

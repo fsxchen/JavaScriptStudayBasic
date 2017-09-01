@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        <ul>
+        <li>length属性</li>
+        <li> indexOf() 方法, 0 在开头，-1，没找到</li>
+        <li>match(), 匹配一个字符串，如果存在则返回该字符串</li>
+        <li>replace()</li>
+        <li>大小写</li>
+        <li>字符串转数组，split</li>
+        </ul>
+
+    </p>
+    <hr />
+    <script>
+        var str = "Hello world"
+        document.write(str.length + "<br />")
+        document.write(str.indexOf("world") + "<br>")
+        document.write(str.match("world" + "<br>"))
+        document.write(str.replace("world", "xiaoke") + "<br>")
+        var str1 = "Hello xiaoke xuetang"
+        var str_arr = str1.split(" ")
+        for (i in str_arr) {
+            document.write(str_arr[i] + "..")
+        }
+    </script>
+</body>
+</html>
