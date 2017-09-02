@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>
+            最基础的面向对象
+        </li>
+    </ul>
+</body>
+<script>
+//    var person = {
+//        name: "arron",
+//        age: 30,
+//        eat: function () {
+//            alert("吃饭了")
+//        }
+//    }
+//    person.eat()
+//  如何继承，派生
+    // 函数构造器
+    function Person() {
+
+    }
+    Person.prototype = {
+        name: "arron",
+        age: 30,
+        eat: function () {
+            alert("I am eatting")
+        }
+    }
+
+    var p = new Person()
+    alert(p.name)
+</script>
+</html>

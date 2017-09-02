@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    (function () {
+        var n = "ssss";
+        function Peo(name) {
+            this._name = name;
+        }
+        Peo.prototype.say = function () {
+            alert("peo-hello" + this._name)
+        }
+        window.Peo = Peo;
+    }());
+    function People(name) {
+        this._name = name;
+    }
+
+    People.prototype.say = function () {
+        alert("hello" + this._name)
+    }
+
+    function Student(name) {
+        this._name = name
+    }
+
+    Student.prototype = new People();
+    var superSsay = Student.prototype.say
+    Student.prototype.say = function () {
+        superSsay.call(this)
+        alert("student")
+    }
+    var s = new Student("arron")
+
+//    s.say()
+    var p = new Peo("aa")
+    p.say()
+</script>
+</body>
+</html>
