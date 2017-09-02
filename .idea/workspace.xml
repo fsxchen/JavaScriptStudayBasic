@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38eafa01-ccb2-4ccf-9b91-8de18cb4c235" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09/window对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09/计时器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09/Location对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09/ceshi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09/history对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09/screen对象.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09/计时器.html" afterPath="$PROJECT_DIR$/09/计时器.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,36 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="事件对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06/事件对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="创建对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07/创建对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String字符串.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07/String字符串.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Date对象.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07/Date对象.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,21 +77,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="计时器.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="计时器.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09/计时器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="738">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="for循环.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02/for循环.html">
+      <file leaf-file-name="history对象.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09/history对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ceshi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09/ceshi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location对象.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09/Location对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen对象.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09/screen对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -173,6 +175,10 @@
         <option value="$PROJECT_DIR$/08/DOM对象控制HTML.html" />
         <option value="$PROJECT_DIR$/09/window对象.html" />
         <option value="$PROJECT_DIR$/09/计时器.html" />
+        <option value="$PROJECT_DIR$/09/history对象.html" />
+        <option value="$PROJECT_DIR$/09/ceshi.html" />
+        <option value="$PROJECT_DIR$/09/Location对象.html" />
+        <option value="$PROJECT_DIR$/09/screen对象.html" />
       </list>
     </option>
   </component>
@@ -315,12 +321,20 @@
       <option name="presentableId" value="Default" />
       <updated>1503812037840</updated>
       <workItem from="1503812039421" duration="17592000" />
-      <workItem from="1504343976284" duration="518000" />
+      <workItem from="1504343976284" duration="3705000" />
     </task>
+    <task id="LOCAL-00001" summary="第九课的学习，window对象">
+      <created>1504344528833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504344528833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18110000" />
+    <option name="totallyTimeSpent" value="21297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1280" height="1440" extended-state="0" />
@@ -349,6 +363,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第九课的学习，window对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九课的学习，window对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -631,8 +649,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09/计时器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="738">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/history对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/ceshi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/Location对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/screen对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>

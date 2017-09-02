@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>获取URL，并且重定向到新的页面</p>
+    <p>assign() 加载新的文档</p>
+<button id="btn" onclick="getLoc()">按钮</button>
+<p id="ptime">
+
+</p>
+    <script>
+        function getLoc() {
+//            document.getElementById("ptime").innerHTML = window.location.hostname
+//            document.getElementById("ptime").innerHTML = window.location.port
+            window.location.assign("http://jikexueyuan.com")
+        }
+    </script>
+</body>
+</html>

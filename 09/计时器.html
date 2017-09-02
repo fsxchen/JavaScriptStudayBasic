@@ -5,6 +5,53 @@
     <title>Title</title>
 </head>
 <body>
+<div>
+    <p>
+        <ul>
+    <li>
+        setInterval
+    </li>
+    <li>
+        setTimeout 延迟调用
+    </li>
+    <li>
+        clearTimeout
+    </li>
+</ul>
+    </p>
+</div>
+
+<button onclick="stopTime()">停止</button>
+<p id="ptime">
+
+</p>
+
+
+<script>
+//    var mytine = setInterval(function () {
+//        getTime();
+//    }, 1000);
+//
+//    function getTime() {
+//        var d = new Date()
+//        var t = d.toLocaleTimeString();
+//        document.getElementById("ptime").innerHTML = t
+//    }
+//
+//    function stopTime() {
+//        clearInterval(mytine)
+//    }
+    var win;
+    function myWin() {
+        alert("Hello")
+        win = setTimeout(function () {
+            myWin
+        }, 3000)
+    }
+    function stopWin() {
+        clearTimeout(win)
+    }
+</script>
 
 </body>
 </html>
